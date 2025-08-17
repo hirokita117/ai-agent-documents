@@ -1,0 +1,29 @@
+# .gemini/config.yaml
+# PRレビューの全体挙動。公開事例で使われているキーを中心に、無難な既定値を設定。
+
+have_fun: false  # トーンを落ち着かせたい場合は false（軽めのジョーク等を抑制）。 
+
+code_review:
+  disable: false          # レビュー機能のオン/オフ
+  comment_severity_threshold: MEDIUM  # 指摘する最小重大度: LOW|MEDIUM|HIGH|CRITICAL
+  max_review_comments: 20  # コメント総数の上限。スパム化防止。-1 で無制限
+  # PRオープン時の自動アクション
+  pull_request_opened:
+    help: false           # 使い方ヘルプの自動投稿
+    summary: true         # 変更点サマリを自動投稿
+    code_review: true     # 自動コードレビューを実行
+
+# レビュー対象から除外したいファイル/パス（glob 可）
+# 例: 生成物・ロックファイル・大きな JSON・翻訳辞書など
+ignore_patterns:
+  - "dist/**"
+  - "build/**"
+  - "**/*.min.*"
+  - "**/package-lock.json"
+  - "**/pnpm-lock.yaml"
+  - "**/yarn.lock"
+  - "**/*.snap"
+  - "**/*.svg"
+  - "**/*.md"        # ドキュメントはレビュー不要なら有効化
+  - "**/*.json"      # 設定により調整
+  - "vendor/**"
