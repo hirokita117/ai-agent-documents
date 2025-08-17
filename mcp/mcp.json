@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "GITHUB_PERSONAL_ACCESS_TOKEN",
+        "-e",
+        "GITHUB_READ_ONLY",
+        "-e",
+        "GITHUB_TOOLSETS",
+        "ghcr.io/github/github-mcp-server"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<your_token>",
+        "GITHUB_READ_ONLY": "1",
+        "GITHUB_TOOLSETS": "repos,issues,pull_requests"
+      }
+    },
+    "Linear": {
+      "url": "https://mcp.linear.app/sse"
+    },
+    "Notion": {
+      "url": "https://mcp.notion.com/mcp",
+      "headers": {}
+    }
+  },
+  "globalShortcut": ""
+}
