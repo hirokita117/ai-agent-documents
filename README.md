@@ -1,2 +1,2 @@
-# ai-agent-documents
-Vibe Coding, Agentic Coding で利用するようなドキュメント群をまとめておくやつ
+# template-ai-coding-config
+AI Coding をする際に利用するドキュメントのテンプレートを管理するリポジトリ
