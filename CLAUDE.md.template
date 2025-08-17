@@ -1,0 +1,123 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## 言語設定
+
+- **対話言語**: 日本語でやりとりを行います
+- **思考言語**: Claude内部の思考プロセスは英語で行います（より正確で効率的な処理のため）
+
+## プロジェクト概要
+
+<!-- TODO: プロジェクトの目的と概要を2-3文で記載 -->
+
+## アーキテクチャ概要
+
+<!-- TODO: 主要なコンポーネントとその関係性を記載
+例:
+- フロントエンド: React + TypeScript
+- バックエンド: Node.js + Express
+- データベース: PostgreSQL
+- 主要な外部サービス連携
+-->
+
+## 開発コマンド
+
+```bash
+# 依存関係のインストール
+# TODO: npm install / yarn install / pnpm install など
+
+# 開発サーバーの起動
+# TODO: npm run dev / yarn dev など
+
+# ビルド
+# TODO: npm run build など
+
+# テストの実行
+# TODO: npm test / npm run test:unit など
+
+# Lintとフォーマット
+# TODO: npm run lint / npm run format など
+
+# 型チェック
+# TODO: npm run typecheck など
+```
+
+## ディレクトリ構成
+
+<!-- TODO: 重要なディレクトリとその役割を記載
+例:
+- src/: ソースコード
+  - components/: UIコンポーネント
+  - services/: ビジネスロジック
+  - utils/: ユーティリティ関数
+- tests/: テストコード
+- docs/: ドキュメント
+-->
+
+## コーディング規約
+
+<!-- TODO: プロジェクト固有のコーディング規約を記載
+例:
+- コンポーネントは関数コンポーネントで記述
+- 命名規則: キャメルケース/スネークケース
+- エラーハンドリングの方針
+- コメントの書き方
+-->
+
+## テスト方針
+
+<!-- TODO: テストの実行方法と方針を記載
+例:
+- 単体テスト: Jest
+- E2Eテスト: Playwright
+- カバレッジ目標: 80%以上
+- モックの使用方針
+-->
+
+## 環境変数
+
+<!-- TODO: 必要な環境変数を記載
+例:
+- DATABASE_URL: データベース接続文字列
+- API_KEY: 外部APIキー
+- NODE_ENV: 実行環境 (development/production)
+-->
+
+## デプロイ
+
+<!-- TODO: デプロイ方法と環境について記載
+例:
+- 本番環境: Vercel/AWS/GCP
+- ステージング環境の有無
+- CI/CDパイプライン
+-->
+
+## 注意事項
+
+<!-- TODO: プロジェクト固有の注意点を記載
+例:
+- 特定のファイルは編集禁止
+- セキュリティ上の制約
+- パフォーマンス上の考慮事項
+- 既知の問題や制限事項
+-->
+
+## よく使うデバッグ手順
+
+<!-- TODO: 頻繁に必要となるデバッグやトラブルシューティング手順を記載
+例:
+- ログの確認方法
+- よくあるエラーと対処法
+- デバッグツールの使用方法
+-->
+
+## 参考リンク
+
+<!-- TODO: 関連ドキュメントやリソースへのリンクを記載
+例:
+- プロジェクトWiki
+- APIドキュメント
+- デザインシステム
+- 関連リポジトリ
+-->
